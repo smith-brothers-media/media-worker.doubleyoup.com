@@ -1,0 +1,10 @@
+name = "doubleyoup-media"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+routes = [ { pattern = "media.sbmstudio.com.au", custom_domain = true } ]
+[vars]
+SHARED_HOST = "media.sbmstudio.com.au"
+MEDIA_BUCKET = "none"
+[[kv_namespaces]]
+binding = "HOSTMAP"
+id = "7407d807da61461e98c69924f1747a6f"
